@@ -31,7 +31,11 @@ public class Bar {
 	}
 
 	public double couvert() {
-		return 4.0;
+		if (consumo() >= 30.0) {
+			return 0.0;
+		} else {
+			return 4.0;
+		}
 	}
 
 	public double consumo() {
