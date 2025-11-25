@@ -14,6 +14,10 @@ public class Ex001Soma {
 		int valor1 = sc.nextInt();
 		System.out.print("Entre com segundo valor para a soma: ");
 		int valor2 = sc.nextInt();
+		
+		int soma = valor1 + valor2;
+		
+		System.out.println("A soma dos valores é" + soma);
 
 		sc.close();
 
