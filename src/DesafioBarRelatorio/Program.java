@@ -20,6 +20,12 @@ public class Program {
 		int espetinhos = sc.nextInt();
 		
 		Bar cliente = new Bar(genero, cervejas, refrigerantes, espetinhos);
+		
+		System.out.println();
+		System.out.println("RELATÓRIO:");
+		System.out.println("-----------");
+		System.out.println(cliente.exibirRelatorio());
+		System.out.printf("Valor a pagar: R$ %.2f%n", cliente.valorTotal());
 
 		sc.close();
 	}

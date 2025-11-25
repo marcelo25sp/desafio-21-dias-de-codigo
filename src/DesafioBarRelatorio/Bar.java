@@ -51,7 +51,7 @@ public class Bar {
 	}
 
 	public String exibirRelatorio() {
-		return String.format("Consumo = R$ %.2f \nCouvert = R$ %.2f \nIngresso: R$ %.2f\n", consumo(), couvert(), ingresso());
+		return String.format("Consumo = R$ %.2f \nCouvert = R$ %.2f \nIngresso =  R$ %.2f\n", consumo(), couvert(), ingresso());
 	}
 
 }
