@@ -18,6 +18,8 @@ public class Program {
 		int refrigerantes = sc.nextInt();
 		System.out.print("Quantidade de espetinhos: ");
 		int espetinhos = sc.nextInt();
+		
+		Bar cliente = new Bar(genero, cervejas, refrigerantes, espetinhos);
 
 		sc.close();
 	}
