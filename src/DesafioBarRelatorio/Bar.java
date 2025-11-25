@@ -35,7 +35,7 @@ public class Bar {
 	}
 
 	public double consumo() {
-		return cerveja + refrigerante + espetinho;
+		return (cerveja * 5.0) + (refrigerante * 3.0) + (espetinho * 7.0);
 	}
 
 	public double ingresso() {
@@ -51,7 +51,8 @@ public class Bar {
 	}
 
 	public String exibirRelatorio() {
-		return String.format("Consumo = R$ %.2f \nCouvert = R$ %.2f \nIngresso =  R$ %.2f\n", consumo(), couvert(), ingresso());
+		return String.format("Consumo = R$ %.2f \nCouvert = R$ %.2f \nIngresso =  R$ %.2f\n", consumo(), couvert(),
+				ingresso());
 	}
 
 }
