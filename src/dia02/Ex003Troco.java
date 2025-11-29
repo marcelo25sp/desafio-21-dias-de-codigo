@@ -10,6 +10,13 @@ public class Ex003Troco {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.print("Entre com o preço unitário do produto:(R$) ");
+		double preco = sc.nextDouble();
+		System.out.print("Quantidade: ");
+		int quantidade = sc.nextInt();
+		System.out.print("Valor recebido:(R$) ");
+		double valorRecebido = sc.nextDouble();
+		
 		sc.close();
 
 	}
