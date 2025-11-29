@@ -19,6 +19,9 @@ public class Ex002MediaIdades {
 		
 		double media = (double)(idade1 + idade2 + idade3) / 3.0;
 		
+		System.out.println();
+		System.out.printf("A média das idades é %.2f anos%n", media);
+		
 		sc.close();
 		
 	}
