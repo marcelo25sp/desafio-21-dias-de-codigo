@@ -17,6 +17,9 @@ public class Ex003Troco {
 		System.out.print("Valor recebido:(R$) ");
 		double valorRecebido = sc.nextDouble();
 		
+		double valorTotal = (double) preco * quantidade; 
+		double troco = valorRecebido - valorTotal;
+		
 		sc.close();
 
 	}
